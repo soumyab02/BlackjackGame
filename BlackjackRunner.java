@@ -4,7 +4,7 @@ public class BlackjackRunner {
 
   public static void main(String[] args) {
     JFrame f = new JFrame("Blackjack"); 
-    BlackjackPanel p = new BlackjackPanel();
+    BlackjackPanel1 p = new BlackjackPanel1();
     f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     f.add(p);
     f.pack();
